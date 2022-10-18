@@ -1,5 +1,4 @@
 This repository is for cpp programs.
-Follow the guidelines.
-More rules coming soon.
-Hope you will like it.
+Follow the guidelines and you will get it done.
+
 
