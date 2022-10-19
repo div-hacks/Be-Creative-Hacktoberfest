@@ -1,0 +1,30 @@
+#include<bits/stdc++.h>
+using namespace std;
+string NumberReverse(string s)
+{
+    stringstream ss(s);   // ss is a object of stringstream(it splits strings
+    //  composed of whitespaces into multiple single strings) and s is passed as a parameter to that object
+
+    vector<string> temp;  // will reverse this vector
+    string tmp;            
+    while(getline(ss,tmp,' ')) //take string s from ss store splitted string into tmp slipt it from where it has space
+    {
+        temp.push_back(tmp);   //push splitted string to vector temp
+    }
+    reverse(temp.begin(),temp.end()); //reverse vector so that multi letter strings(words) in a sentence get reversed as a whole 
+    string ans="";                    //create an empty string
+    for(int i=0;i<temp.size();i++)
+    {
+        ans+=temp[i];                   // concatenate words in answer
+        ans+=" ";                       // add space
+    }
+    ans.pop_back();                     //when last string concatenated it adds extra space remove(pop) it from the vector
+    return ans;                         
+}
+int main()
+{
+    string s;
+    getline(cin,s);
+    cout<<NumberReverse(s);
+    return 0;
+}
