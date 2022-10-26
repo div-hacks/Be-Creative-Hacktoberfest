@@ -14,7 +14,7 @@ Lets be creative this hacktober fest. Get started with contributing to open sour
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
- <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome" /> <a href="https://github.com/div-hacks/Be-Creative-Hacktoberfest-2022/pulls" target="_blank"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr//div-hacks/Be-Creative-Hacktoberfest-2022?style=for-the-badge" /></a> <a href="https://github.com/div-hacks/Be-Creative-Hacktoberfest-2022/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/div-hacks/Be-Creative-Hacktoberfest-2022?style=for-the-badge" /></a> 
+ <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome" /> <a href="https://github.com/div-hacks/Be-Creative-Hacktoberfest-2022/pulls" target="_blank"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/div-hacks/Be-Creative-Hacktoberfest-2022?style=for-the-badge" /></a> <a href="https://github.com/div-hacks/Be-Creative-Hacktoberfest-2022/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/div-hacks/Be-Creative-Hacktoberfest-2022?style=for-the-badge" /></a> 
 
 
 # How Can I Contribute?
