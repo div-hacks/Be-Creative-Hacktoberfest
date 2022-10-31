@@ -1,0 +1,71 @@
+/*Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
+
+Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
+
+ 
+
+Example 1:
+
+Input: x = 123
+Output: 321
+Example 2:
+
+Input: x = -123
+Output: -321
+Example 3:
+
+Input: x = 120
+Output: 21
+ 
+
+Constraints:
+
+-231 <= x <= 231 - 1*/
+
+#include <bits/stdc++.h> 
+using namespace std;
+
+class Solution {
+public:
+    int reverse(long long int x) {
+        
+        long long int low = - pow(2,31);
+        long long int high = pow(2,31)-1;
+        long long int reverse=0;
+        if(x<0){
+            
+            x-=2*x;
+            while(x!=0){
+                
+                int rem = x%10;
+                reverse = reverse *10 + rem;
+                x/=10;
+            }
+            
+            if(reverse < low || reverse > high){
+                
+                return 0;
+            }
+            
+            reverse = reverse - 2*reverse;
+            return reverse;
+            
+        }
+        
+        while(x!=0){
+                
+                int rem = x%10;
+                reverse = reverse *10 + rem;
+                x/=10;
+            }
+        
+        if(reverse < low || reverse > high){
+                
+                return 0;
+            }
+        return reverse;
+        
+        
+        
+    }
+};
