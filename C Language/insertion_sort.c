@@ -1,7 +1,7 @@
 /*
 In this program, we will perform Insertion sort and 
 The worst case time complexity is O(n^2) and 
-Best case time complexity is O(n).
+Best case  time complexity is O(n).
 */
 
 #include<stdio.h>

@@ -1,5 +1,5 @@
 /*
-    In this program we will sort program using merge sorting algorithm.
+     In this program we will sort program using merge sorting algorithm.
 */
 
 #include<stdio.h>
