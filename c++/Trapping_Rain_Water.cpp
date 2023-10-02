@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Function to return the maximum
-// water that can be stored
+
 int maxWater(int arr[], int n)
 {
 	// To store the maximum water
@@ -29,7 +28,7 @@ int maxWater(int arr[], int n)
 	return res;
 }
 
-// Driver code
+
 int main()
 {
 	int arr[] = { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 };
