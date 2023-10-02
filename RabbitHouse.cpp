@@ -141,7 +141,6 @@ void solve(long long int r, long long int c,
 	cout << res;
 }
 
-// Driver code
 int main()
 {
 
