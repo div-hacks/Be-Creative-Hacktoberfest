@@ -1,6 +1,5 @@
 package FindVowelAndConsonent;
 // Jan 27, 2022
-//All Copyright © goes to Hamim Reza Shammo (https://github.com/hrshammo/)
 import java.util.Scanner;
 
 public class Main {
